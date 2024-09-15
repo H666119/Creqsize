@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Avilon</title>
+    <style>
+
+      p {display: inline-block;
+    background: #ffffff; /* Цвет фона под заголовком */
+    color: rgb(4, 6, 4); /* Цвет текста */
+    padding: 25px; /* Поля вокруг текста */
+   }
+   h4 {
+    background: #ffffff; /* Цвет фона под заголовком */
+    color: rgb(4, 6, 4); /* Цвет текста */
+    padding: auto; /* Поля вокруг текста */
+   }
+
+h2 {
+  text-align: center;
+  }
+
+h1 {
+  text-align: center;
+  }
+
+
+
+
+        .video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-video {
+  /* Фиксируем видеоролик, чтобы он занимал всю площадь страницы
+  от верхнего левого угла */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Определяем, что все другие элементы на странице будут поверх видео */
+}
+        
+    </style>
+    <!-- Подключение файла стилей -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="video-background">
+            <video autoplay muted loop id="myVideo">
+                <source src="gallery/Gallery images/mersfon.mp4" type="video/mp4">
+            </video>
+            
+        </div>
+        <div class="content">
+            <!-- Контент страницы -->
+        </div>
+        
+
+        <div class="container">
+            <marquee> <img src="gallery/Gallery images/logomer.png" alt="Logo of Mercedes Benz" width="300" height="auto"> </marquee>
+            <h1 style="color: rgb(255, 255, 255)">Mercedes-Benz Авилон, официальный дилер</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2 style="color: rgb(255, 255, 255)">О салоне</h2>
+            
+            <p> Лидер по продажам и техническому обслуживанию автомобилей Mercedes-Benz в России и в Восточной Европе, занимает лидирующие позиции в мире по продажам автомобилей Ford, а также лидер дилерской сети Mersedes-Benz с долей продаж 11 % по России. В 2015 году «Авилон» стал российским лидером по числу люксовых брендов в портфеле.</p>
+        </section>
+
+        <section id="models">
+            <h2 style="color: rgb(255, 255, 255)">Модели автомобилей</h2>
+            <div class="model-list">
+                <div class="model-item">
+                    <h2 style="color: rgb(255, 255, 255)">Mercedes-Benz Cls63 AMG</h2>
+                    <img src="gallery/Gallery images/Cls63.jpeg" alt="Mercedes-Benz Cls63 AMG"> 
+                    <img src="gallery/Gallery images/Cls63 1.jpeg" alt="Mercedes-Benz Cls63 AMG"> 
+                    <img src="gallery/Gallery images/Cls63 2.jpeg" alt="Mercedes-Benz Cls63 AMG"> 
+                    <img src="gallery/Gallery images/Cls63 3.jpeg" alt="Mercedes-Benz Cls63 AMG">
+                    <img src="gallery/Gallery images/Cls63 4.jpeg" alt="Mercedes-Benz Cls63 AMG"> 
+                    
+
+
+                    <p>CLS 63 AMG отличается динамическими характеристиками экстра-класса: автомобиль разгоняется с нуля до 100 км/ч за 4,4 секунды, а максимальная скорость составляет 250 км/ч. Для покупателей CLS 63 AMG дополнительно предлагается эксклюзивный пакет оснащения AMG Performance Package.</p>
+                </div>
+                <div class="model-item">
+                    
+                    <h2 style="color: rgb(255, 255, 255)">Mercedes-Benz G-класс</h2>
+                    <img src="gallery/Gallery images/Gwagon.jpeg" alt="Mercedes-Benz G-класс">
+                    <img src="gallery/Gallery images/gwagon1.jpeg" alt="Mercedes-Benz G-класс">
+                    <img src="gallery/Gallery images/gwagon2.jpeg" alt="Mercedes-Benz G-класс">
+                    <img src="gallery/Gallery images/gwagon3.jpeg" alt="Mercedes-Benz G-класс">
+                    <img src="gallery/Gallery images/gwagon4.jpeg" alt="Mercedes-Benz Cls63 AMG"> 
+                    <p>Mercedes-Benz G-класс, иногда именуемый G-Wagen Выпускается с 1979 года по настоящее время. G-класс был разработан в качестве военного транспортного средства по предложению иранского шаха Мохаммеда Реза Пехлеви[1][3][4], в то время являвшегося акционером компании Mercedes-Benz. Гражданская версия автомобиля была представлена в 1979 году.</p>
+                </div>
+                <div class="model-item">
+                    <h2 style="color: rgb(255, 255, 255)">Mercedes-Benz Vito</h2>
+                    <img src="gallery/Gallery images/vito.jpeg" alt="Mercedes-Benz Vito">
+                    <img src="gallery/Gallery images/vito1.jpeg" alt="Mercedes-Benz Vito">
+                    <img src="gallery/Gallery images/vito2.jpeg" alt="Mercedes-Benz Vito">
+                    <img src="gallery/Gallery images/vito3.jpeg" alt="Mercedes-Benz Vito">
+                    <img src="gallery/Gallery images/vito4.jpeg" alt="Mercedes-Benz Vito">
+                    
+                    <p>Mercedes-Benz Vito — среднеразмерный лёгкий коммерческий автомобиль (LCV) производства Mercedes-Benz, доступный в кузове фургон, шасси с кабиной или многоцелевой автомобиль (MPV), предназначенный для перевозки грузов или до восьми пассажиров.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2 style="color: rgb(255, 255, 255)">Галерея</h2>
+            <div class="gallery-images">
+                <img src="gallery/Gallery images/Cls63.jpeg" alt="Mersedes cls 63 amg">
+                <img src="gallery/Gallery images/Gwagon.jpeg" alt="mersedes G wagon">
+                <img src="gallery/Gallery images/gwagon2.jpeg" alt="Mercedes-Benz G-класс">
+                <img src="gallery/Gallery images/vito3.jpeg" alt="Mercedes-Benz Vito">
+                <img src="gallery/Gallery images/Cls63 3.jpeg" alt="Mercedes-Benz Cls63 AMG">
+
+            </div>
+        </section>
+
+        <section id="video">
+            <h2 style="color: rgb(255, 255, 255)">Обзор</h2>
+            <iframe width="580" height="460" src="https://www.youtube.com/embed/B1HuneJ7t1g" title="АВИЛОН «Мерседес-Бенц»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2 style="color: rgb(255, 255, 255)">Расположение</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.5573234851245!2d37.7193141!3d55.7140661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54834e022de09%3A0x20f106019bf57a28!2zTWVyY2VkZXMtQmVueiDQkNCy0LjQu9C-0L0sINC-0YTQuNGG0LjQsNC70YzQvdGL0Lkg0LTQuNC70LXRgA!5e0!3m2!1sru!2s!4v1726325809844!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <h4>&copy; 2024 Автомобильный салон Mercedes Benz Авилон</h4>
+    </footer>
+</body>
+</html>
